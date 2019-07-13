@@ -1,0 +1,13 @@
+git Desktop 다운로드
+git다운로드
+
+git-Hub사이트에서 새로운 레포지터리생성
+Team추가
+
+원하는위치 폴더 생성
+
+CMD로 가서 git clone 해당 프로젝트 주소 입력
+=> 로컬과 깃허브 동기화 작업
+
+git add 파일명
+git commit -m "add Text File [파일명]"
