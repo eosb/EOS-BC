@@ -35,9 +35,6 @@ git status
 git checkout -- 파일명
 
 
-%커밋 오타 수정
-git commit --amend
-
 %깃허브 최신상태로 만들기
 git pull
 
@@ -54,5 +51,10 @@ git reset --hard 로그 해쉬넘버
 git push -f
 
 
+
+%커밋 메시지 바꾸기
+git commit --amend
+해당파일에 들어가서 수정후 다시업로드
+:wq!로 나가기
 
 
