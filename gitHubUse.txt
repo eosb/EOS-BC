@@ -1,3 +1,4 @@
+기본설정
 git Desktop 다운로드
 git다운로드
 
@@ -8,6 +9,50 @@ Team추가
 
 CMD로 가서 git clone 해당 프로젝트 주소 입력
 => 로컬과 깃허브 동기화 작업
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
 
+%파일 업로드하는 방법
+해당 프로젝트 파일 위치로 이동
+
+%commit하기
 git add 파일명
 git commit -m "add Text File [파일명]"
+
+%모든 파일 commit 하기
+git add .
+
+%commit 취소하기
+git reset 파일명
+
+%gitHub에 등록
+git push
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+
+%파일 추가 확인
+git status
+
+%수정 취소하기
+git checkout -- 파일명
+
+
+%커밋 오타 수정
+git commit --amend
+
+%깃허브 최신상태로 만들기
+git pull
+
+%변경사항 확인하기
+git log
+
+%특정 commit으로 돌아가기
+git reset 원하는 로그 해쉬넘버
+git reset --hard 로그 해쉬넘버
+	=> 이후 변경사항 모두 삭제
+
+
+%변경사항 모두 무시(경로 등)하고 그대로 업로드 시키기
+git push -f
+
+
+
+

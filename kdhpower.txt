@@ -1,0 +1,14 @@
+git config --global user.name 이름
+git config --global user.email 깃허브 메일주소 
+
+mkdir ~/MyProject   // 로컬 디렉토리 만들고
+cd ~/myproject      // 디렉토리 들어가서
+git init            // 깃 명령어를 사용할 수 있는 디렉토리 만들기
+git status          // 현재 상태 훑어보고
+git add 파일명.확장자  // 깃 주목 리스트에 파일 추가하고 and
+git add .           // 모든 파일 추가
+git commit -m "메모" // 커밋해서 스냅샷
+
+git remote add origin https://github.com/username/myproject.git // 로컬과 원격저장소 연결
+git remote -v // 연결상태 확인
+git push origin master // 깃허브 푸쉬
