@@ -58,3 +58,20 @@ git commit --amend
 :wq!로 나가기
 
 
+%브런치 만들기
+git checkout -b 이름
+
+%브런치 목록 보기
+git branch로 확인하기
+
+%브런치 지우기
+git branch -d 이름
+
+
+
+
+
+
+
+
+
